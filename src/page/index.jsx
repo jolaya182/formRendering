@@ -14,7 +14,6 @@ import React from 'react';
 import MainMenu from './MainMenu';
 import MiddleBody from './MiddleBody';
 import Footer from './Footer';
-import Form from '../components/Form';
 
 // bring what ever component to render
 import SomeArticle from '../components/SomeArticle';
@@ -36,13 +35,12 @@ export const PageTemplate = ({ children }) => (
 );
 
 export const myComponent = () => (
-  <Form />
-  // <PageTemplate>
-  //   <div className="rightBody">
-  //     <MiddleBody />
-  //     <Footer />
-  //   </div>
-  // </PageTemplate>
+  <PageTemplate>
+    <div className="rightBody">
+      <MiddleBody />
+      <Footer />
+    </div>
+  </PageTemplate>
 );
 
 export const articleHtml = () => <SomeArticle />;

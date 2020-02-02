@@ -1,7 +1,7 @@
 **/node_modules
 **/src/pictures
 **/dist
+src/jwt/keys
+src/webFonts
 src/guitarxoo.com
 src/packageJsonComands.txt
-**src/jwt/keys
-**src/webFonts
