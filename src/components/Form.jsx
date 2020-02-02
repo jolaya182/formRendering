@@ -199,7 +199,7 @@ export default class Form extends React.Component {
             <span> {`I'm actually available the date of the talk `} </span>
           </div>
           <div className="formRow">
-            <button type="submit">Submit</button>
+            <button>Submit</button>
           </div>
         </form>
       </div>
